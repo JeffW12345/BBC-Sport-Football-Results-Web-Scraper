@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace BbcWebscrape
 {
@@ -8,10 +9,34 @@ namespace BbcWebscrape
     {
         static void Main(string[] args)
         {
-            List<string> dates = GetDates(DateTime.Now.AddDays(-2), DateTime.Now);
+            List<string> dates = GetDates(DateTime.Now.AddDays(-365), DateTime.Now);
             List<Results> results = GetResults(dates);
+            WriteData(results);
+            Console.WriteLine(dates.Count);
+        }
 
-            Console.WriteLine("Hello World!");
+        private static void WriteData(List<Results> results)
+        {
+            string path = @"C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\results.csv";
+            if (!File.Exists(path))
+            {
+                using (StreamWriter sw = new StreamWriter(path, true))
+                {
+                    sw.WriteLine("Date, Home Team Name (full), Home Team Name (short), Awat Team Name (full), Away Team Name (short), " +
+                        "Tournament, Home goals, Away goals, Normal mins, Added mins");
+                    sw.Close();
+                }
+            }
+            foreach (var obj in results)
+            {
+                using (StreamWriter sw = new StreamWriter(path, true))
+                {
+                    sw.WriteLine(obj.matchDate + "," + obj.homeTeamNameLong + "," + obj.homeTeamNameShort + "," + obj.awayTeamNameLong +
+                        "," + obj.awayTeamNameShort + "," + obj.tournamentName + "," + obj.homeGoals + "," + obj.awayGoals + "," + obj.normalTimeMins + "," +
+                        obj.minsAdded);
+                    sw.Close();
+                }
+            }
         }
 
         static string GetFormattedDate(DateTime date)
@@ -44,22 +69,28 @@ namespace BbcWebscrape
             List<Results> results = new List<Results>();
             foreach (var date in dates)
             {
-                string url = "https://push.api.bbci.co.uk/batch?t=%2Fdata%2Fbbc-morph-football-scores-match-list-data%2F" + date +
-                                     "%2FstartDate%2F" + date +
-                                     "%2FstartDate%2F2021-12-01%2FtodayDate%2F2021-12-03%2Ftournament%2Ffull-priority-order%2Fversion%2F2.4.6?timeout=5";
+                string url = "https://push.api.bbci.co.uk/batch?t=%2Fdata%2Fbbc-morph-football-scores-match-list-data%2FendDate%2F" + date + "%2FstartDate%2F"
+                    + date + "%2FtodayDate%2F" + date + "%2Ftournament%2Ffull-priority-order%2Fversion%2F2.4.6?timeout=5";
+
+                //Console.WriteLine(url);
                 string json = new System.Net.WebClient().DownloadString(url); // Gets JSON
-                // 2021-11-30
-                string replace = date.Substring(0, 4) + date.Substring(5, 2) + date.Substring(8, 2);
-                json = json.Replace(GetFormattedDate(new DateTime(Convert.ToInt32(date.Substring(0, 4)), Convert.ToInt32(date.Substring(5, 2)),
-                    Convert.ToInt32(date.Substring(8, 2)))), "Tuesday-30th-November");
+                // Format: 2021-11-30
+                string to_be_replaced = GetFormattedDate(new DateTime(Convert.ToInt32(date.Substring(0, 4)), Convert.ToInt32(date.Substring(5, 2)),
+                    Convert.ToInt32(date.Substring(8, 2))));
+                //Console.WriteLine(date);
+                //Console.WriteLine(to_be_replaced);
+                json = json.Replace(to_be_replaced, "dataForDate");
+                //Console.WriteLine(json);
                 var objs = JsonConvert.DeserializeObject<Rootobject>(json); // Deserialises JSON
                 foreach (var obj in objs.payload)
                 {
                     if(obj.body == null) { continue; }
                     foreach (var match in obj.body.matchData)
                     {
-                        foreach (var footballEvent in match.tournamentDatesWithEvents.Tuesday30thNovember)
+                        if(match.tournamentDatesWithEvents.DataForDate == null) { continue; }
+                        foreach (var footballEvent in match.tournamentDatesWithEvents.DataForDate)
                         {
+                            if (footballEvent.events == null) { continue; }
                             foreach (var evnt in footballEvent.events) 
                             {
                                 if (evnt.eventStatus != "post-event") { continue; }
@@ -68,9 +99,11 @@ namespace BbcWebscrape
                                 res.matchDate = evnt.startTime.ToString().Substring(0, 10);
                                 res.normalTimeMins = evnt.minutesElapsed.ToString();
                                 res.minsAdded = evnt.minutesIntoAddedTime.ToString();
-                                res.homeTeamName = evnt.homeTeam.name.full;
+                                res.homeTeamNameLong = evnt.homeTeam.name.full;
+                                res.homeTeamNameShort = evnt.homeTeam.name.abbreviation;
                                 res.homeGoals = evnt.homeTeam.scores.score.ToString();
-                                res.awayTeamName = evnt.awayTeam.name.full;
+                                res.awayTeamNameLong = evnt.awayTeam.name.full;
+                                res.awayTeamNameShort = evnt.awayTeam.name.abbreviation;
                                 res.awayGoals = evnt.awayTeam.scores.score.ToString();
                                 results.Add(res);
                             }
@@ -100,11 +133,13 @@ namespace BbcWebscrape
     {
         public string tournamentName;
         public string matchDate;
-        public string homeTeamName;
+        public string homeTeamNameLong;
+        public string homeTeamNameShort;
         public string homeGoals;
         public string normalTimeMins;
         public string minsAdded;
-        internal string awayTeamName;
+        internal string awayTeamNameLong;
+        internal string awayTeamNameShort;
         internal string awayGoals;
     }
 
@@ -164,10 +199,10 @@ namespace BbcWebscrape
 
     public class Tournamentdateswithevents
     {
-        public Tuesday30ThNovember[] Tuesday30thNovember { get; set; }
+        public DataForDate[] DataForDate { get; set; }
     }
 
-    public class Tuesday30ThNovember
+    public class DataForDate
     {
         public Round round { get; set; }
         public Event[] events { get; set; }
