@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\eBay8470\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\eBay8470\\.nuget\\packages"
+    ]
+  }
+}
