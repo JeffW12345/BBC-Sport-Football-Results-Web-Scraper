@@ -2,6 +2,8 @@ Football results web scraper.
 
 Get a year's worth of football results from the BBC Sports website.
 
-An example spreadsheet is included in the same folder as the program file.
+The results are downloaded to a CSV file.
 
-NB - You will need to change the target folder on line 21 of Project.cs.
+An example CSV file is included in the same folder as the program file.
+
+NB - You will need to change the target folder for your CSV file, by altering line 21 of Project.cs.
