@@ -73,15 +73,11 @@ namespace BbcWebscrape
                 string url = "https://push.api.bbci.co.uk/batch?t=%2Fdata%2Fbbc-morph-football-scores-match-list-data%2FendDate%2F" + date + "%2FstartDate%2F"
                     + date + "%2FtodayDate%2F" + date + "%2Ftournament%2Ffull-priority-order%2Fversion%2F2.4.6?timeout=5";
 
-                //Console.WriteLine(url);
                 string json = new System.Net.WebClient().DownloadString(url); // Gets JSON
                 // Format: 2021-11-30
                 string to_be_replaced = GetFormattedDate(new DateTime(Convert.ToInt32(date.Substring(0, 4)), Convert.ToInt32(date.Substring(5, 2)),
                     Convert.ToInt32(date.Substring(8, 2))));
-                //Console.WriteLine(date);
-                //Console.WriteLine(to_be_replaced);
                 json = json.Replace(to_be_replaced, "dataForDate");
-                //Console.WriteLine(json);
                 var objs = JsonConvert.DeserializeObject<Rootobject>(json); // Deserialises JSON
                 foreach (var obj in objs.payload)
                 {
