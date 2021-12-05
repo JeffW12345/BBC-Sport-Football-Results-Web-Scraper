@@ -1,4 +1,6 @@
-Scrape a year's worth of football results from the BBC Sports website.
+Football results web scraper.
+
+Get a year's worth of football results from the BBC Sports website.
 
 An example spreadsheet is included in the same folder as the program file.
 
