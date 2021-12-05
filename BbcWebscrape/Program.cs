@@ -9,7 +9,7 @@ namespace BbcWebscrape
     {
         static void Main(string[] args)
         {
-            List<string> dates = GetDates(DateTime.Now.AddDays(-365), DateTime.Now);
+            List<string> dates = GetDates(DateTime.Now.AddDays(-2), DateTime.Now);
             List<Results> results = GetResults(dates);
             WriteData(results);
             Console.WriteLine(dates.Count);

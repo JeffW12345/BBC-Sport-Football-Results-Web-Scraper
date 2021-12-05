@@ -5,7 +5,6 @@ C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\bin\Debug\netcoreapp3.1
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\bin\Debug\netcoreapp3.1\BbcWebscrape.dll
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\bin\Debug\netcoreapp3.1\BbcWebscrape.pdb
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\obj\Debug\netcoreapp3.1\BbcWebscrape.csproj.AssemblyReference.cache
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\obj\Debug\netcoreapp3.1\BbcWebscrape.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\obj\Debug\netcoreapp3.1\BbcWebscrape.AssemblyInfoInputs.cache
 C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\obj\Debug\netcoreapp3.1\BbcWebscrape.AssemblyInfo.cs

@@ -162,7 +162,6 @@ Date, Home Team Name (full), Home Team Name (short), Awat Team Name (full), Away
 05/12/2021,Dundee United,Dundee Utd,Celtic,Celtic,Ladbrokes Scottish Premiership,0,3,90,4
 05/12/2021,El Salvador,El Salvador,Ecuador,Ecuador,International Friendlies,1,1,90,6
 05/12/2021,Rochdale,Rochdale,Plymouth Argyle,Plymouth,The Emirates FA Cup,1,2,90,6
-05/12/2021,Colchester United,Colchester,Wigan Athletic,Wigan,The Emirates FA Cup,1,2,90,6
 05/12/2021,Blackburn Ladies,Blackburn Ladies,Sheffield United Women,Sheffield United Women,The FA Women's Continental League Cup,1,0,,
 05/12/2021,Sunderland Ladies,Sunderland Ladies,Aston Villa Women,Aston Villa Women,The FA Women's Continental League Cup,0,7,,
 05/12/2021,Manchester United Women,Man Utd Women,Leicester City Women,Leicester City Women,The FA Women's Continental League Cup,2,2,,
@@ -170,7 +169,179 @@ Date, Home Team Name (full), Home Team Name (short), Awat Team Name (full), Away
 05/12/2021,Saint-Étienne,Saint-Étienne,Rennes,Rennes,French Ligue 1,0,5,90,1
 05/12/2021,Macarthur FC,Macarthur FC,Central Coast Mariners,Central Coast Mariners,Australian Hyundai A-League,1,0,90,8
 05/12/2021,Melbourne Victory,Melbourne Victory,Perth Glory,Perth Glory,Australian Hyundai A-League,0,3,90,7
-05/12/2021,Beerschot,Beerschot,Royal Antwerp,Royal Antwerp,Belgian First Division A,0,1,90,7
+05/12/2021,RKC Waalwijk,RKC Waalwijk,N.E.C.,N.E.C.,Dutch Eredivisie,2,1,90,5
+05/12/2021,FC Khimki,FC Khimki,Arsenal Tula,Arsenal Tula,Russian SOGAZ Premier League,1,2,90,2
+05/12/2021,Kayserispor,Kayserispor,Antalyaspor,Antalyaspor,Turkish Spor Toto Super Lig,2,0,90,6
+03/12/2021,Fulham,Fulham,AFC Bournemouth,Bournemouth,Sky Bet Championship,1,1,90,5
+03/12/2021,Gateshead,Gateshead,Charlton Athletic,Charlton,The Emirates FA Cup,0,2,90,5
+03/12/2021,Rotherham United,Rotherham,Stockport County,Stockport,The Emirates FA Cup,1,0,90,7
+03/12/2021,Costa Rica,Costa Rica,Nicaragua Women,Nicaragua Women,Women's International Friendlies,3,1,,
+03/12/2021,Inverness Caledonian Thistle,Inverness CT,Kilmarnock,Kilmarnock,Ladbrokes Scottish Championship,1,0,90,4
+03/12/2021,Edinburgh City,Edinburgh City,Annan Athletic,Annan Athletic,Ladbrokes Scottish League Two,0,1,90,5
+03/12/2021,Bala Town,Bala Town,The New Saints,The New Saints,Cymru Premier,1,4,90,
+03/12/2021,Aberystwyth Town,Aberystwyth Town,Connah's Quay Nomads,Connah's Quay Nomads,Cymru Premier,0,1,90,1
+03/12/2021,Granada,Granada,Alavés,Alavés,Spanish La Liga Santander,2,1,90,5
+03/12/2021,1. FC Union Berlin,Union Berlin,RB Leipzig,RB Leipzig,German Bundesliga,2,1,90,4
+03/12/2021,Wellington Phoenix,Wellington Phoenix,Western Sydney Wanderers FC,Western Sydney Wanderers FC,Australian Hyundai A-League,0,2,90,5
+03/12/2021,Sint-Truidense VV,Sint-Truidense VV,Union Saint-Gilloise,Union Saint-Gilloise,Belgian First Division A,1,2,90,5
+03/12/2021,Athletico Paranaense,Athletico Paranaense,Cuiabá,Cuiabá,Brazilian Chevrolet Campeonato Série A,1,0,90,7
+03/12/2021,Chapecoense,Chapecoense,Atlético Goianiense,Atlético Goianiense,Brazilian Chevrolet Campeonato Série A,0,1,90,5
+03/12/2021,Sport,Sport,Flamengo,Flamengo,Brazilian Chevrolet Campeonato Série A,1,1,90,7
+03/12/2021,FC Groningen,FC Groningen,PEC Zwolle,PEC Zwolle,Dutch Eredivisie,1,1,90,7
+03/12/2021,Portimonense,Portimonense,FC Porto,FC Porto,Portuguese Primeira Liga NOS,0,3,90,4
+03/12/2021,Benfica,Benfica,Sporting Lisbon,Sporting,Portuguese Primeira Liga NOS,1,3,90,7
+03/12/2021,Zenit St Petersburg,Zenit St Petersburg,Rostov,Rostov,Russian SOGAZ Premier League,2,2,90,5
+03/12/2021,Kasimpasa,Kasimpasa,Besiktas,Besiktas,Turkish Spor Toto Super Lig,1,1,90,7
+04/12/2021,West Ham United,West Ham,Chelsea,Chelsea,Premier League,3,2,90,5
+04/12/2021,Newcastle United,Newcastle,Burnley,Burnley,Premier League,1,0,90,5
+04/12/2021,Southampton,Southampton,Brighton & Hove Albion,Brighton,Premier League,1,1,90,11
+04/12/2021,Wolverhampton Wanderers,Wolves,Liverpool,Liverpool,Premier League,0,1,90,7
+04/12/2021,Watford,Watford,Manchester City,Man City,Premier League,1,3,90,5
+04/12/2021,Aberdeen,Aberdeen,St Mirren,St Mirren,Ladbrokes Scottish Premiership,4,1,90,3
+04/12/2021,Hibernian,Hibernian,Motherwell,Motherwell,Ladbrokes Scottish Premiership,1,1,90,4
+04/12/2021,Rangers,Rangers,Dundee,Dundee,Ladbrokes Scottish Premiership,3,0,90,4
+04/12/2021,Coventry City,Coventry,West Bromwich Albion,West Brom,Sky Bet Championship,1,2,90,6
+04/12/2021,Barnsley,Barnsley,Huddersfield Town,Huddersfield,Sky Bet Championship,1,1,90,4
+04/12/2021,Blackburn Rovers,Blackburn,Preston North End,Preston,Sky Bet Championship,1,0,90,6
+04/12/2021,Blackpool,Blackpool,Luton Town,Luton,Sky Bet Championship,0,3,90,5
+04/12/2021,Bristol City,Bristol City,Derby County,Derby,Sky Bet Championship,1,0,90,5
+04/12/2021,Cardiff City,Cardiff,Sheffield United,Sheff Utd,Sky Bet Championship,2,3,90,5
+04/12/2021,Middlesbrough,Middlesbrough,Swansea City,Swansea,Sky Bet Championship,1,0,90,6
+04/12/2021,Millwall,Millwall,Birmingham City,Birmingham,Sky Bet Championship,3,1,90,5
+04/12/2021,Nottingham Forest,Nottm Forest,Peterborough United,Peterborough,Sky Bet Championship,2,0,90,4
+04/12/2021,Reading,Reading,Hull City,Hull,Sky Bet Championship,1,1,90,5
+04/12/2021,Buxton,Buxton,Morecambe,Morecambe,The Emirates FA Cup,0,1,90,4
+04/12/2021,AFC Wimbledon,Wimbledon,Cheltenham Town,Cheltenham,The Emirates FA Cup,4,3,90,6
+04/12/2021,Bristol Rovers,Bristol Rovers,Sutton United,Sutton United,The Emirates FA Cup,2,1,90,6
+04/12/2021,Burton Albion,Burton,Port Vale,Port Vale,The Emirates FA Cup,1,2,90,6
+04/12/2021,Cambridge United,Cambridge,Exeter City,Exeter,The Emirates FA Cup,2,1,90,9
+04/12/2021,Carlisle United,Carlisle,Shrewsbury Town,Shrewsbury,The Emirates FA Cup,1,2,90,4
+04/12/2021,Doncaster Rovers,Doncaster,Mansfield Town,Mansfield,The Emirates FA Cup,2,3,90,6
+04/12/2021,Ipswich Town,Ipswich,Barrow,Barrow,The Emirates FA Cup,0,0,90,9
+04/12/2021,Leyton Orient,Leyton Orient,Tranmere Rovers,Tranmere,The Emirates FA Cup,4,0,90,5
+04/12/2021,Lincoln City,Lincoln City,Hartlepool United,Hartlepool,The Emirates FA Cup,0,1,90,4
+04/12/2021,Portsmouth,Portsmouth,Harrogate Town,Harrogate,The Emirates FA Cup,1,2,90,6
+04/12/2021,Walsall,Walsall,Swindon Town,Swindon,The Emirates FA Cup,1,2,90,7
+04/12/2021,Yeovil Town,Yeovil,Stevenage,Stevenage,The Emirates FA Cup,1,0,90,5
+04/12/2021,Accrington Stanley,Accrington,Fleetwood Town,Fleetwood,Sky Bet League One,5,1,90,4
+04/12/2021,Sunderland,Sunderland,Oxford United,Oxford Utd,Sky Bet League One,1,1,90,5
+04/12/2021,Aldershot Town,Aldershot,Altrincham,Altrincham,Vanarama National League,2,2,90,1
+04/12/2021,Barnet,Barnet,Maidenhead United,Maidenhead United,Vanarama National League,3,0,90,
+04/12/2021,Bromley,Bromley,Wealdstone,Wealdstone,Vanarama National League,3,2,90,1
+04/12/2021,Dagenham & Redbridge,Dag & Red,Grimsby Town,Grimsby,Vanarama National League,3,2,90,1
+04/12/2021,Dover Athletic,Dover,Wrexham,Wrexham,Vanarama National League,0,1,90,3
+04/12/2021,Solihull Moors,Solihull Moors,Woking,Woking,Vanarama National League,2,0,90,
+04/12/2021,Weymouth,Weymouth,Torquay United,Torquay,Vanarama National League,1,2,90,
+04/12/2021,AFC Fylde,Fylde,Blyth Spartans,Blyth Spartans,Vanarama National League North,4,1,90,
+04/12/2021,Bradford (Park Avenue),Bradford (Park Avenue),Brackley Town,Brackley Town,Vanarama National League North,0,3,90,
+04/12/2021,Chester,Chester,Leamington,Leamington,Vanarama National League North,2,1,90,6
+04/12/2021,Curzon Ashton,Curzon Ashton,Alfreton Town,Alfreton,Vanarama National League North,1,2,90,1
+04/12/2021,Gloucester City,Gloucester City,Spennymoor Town,Spennymoor Town,Vanarama National League North,2,0,90,1
+04/12/2021,Guiseley,Guiseley,York City,York,Vanarama National League North,0,1,90,1
+04/12/2021,Kettering Town,Kettering Town,Boston United,Boston United,Vanarama National League North,2,3,90,
+04/12/2021,Southport,Southport,Hereford,Hereford,Vanarama National League North,2,0,90,
+04/12/2021,Chippenham Town,Chippenham Town,Dorking Wanderers,Dorking Wanderers,Vanarama National League South,4,1,90,1
+04/12/2021,Concord Rangers,Concord Rangers,Braintree Town,Braintree,Vanarama National League South,2,2,90,
+04/12/2021,Dartford,Dartford,Billericay Town,Billericay Town,Vanarama National League South,1,0,90,
+04/12/2021,Dulwich Hamlet,Dulwich Hamlet,Ebbsfleet United,Ebbsfleet,Vanarama National League South,5,2,90,1
+04/12/2021,Hampton & Richmond,Hampton & Richmond,Hemel Hempstead Town,Hemel Hempstead Town,Vanarama National League South,0,1,90,1
+04/12/2021,Havant & Waterlooville,Havant & Waterlooville,Bath City,Bath City,Vanarama National League South,1,3,90,
+04/12/2021,Hungerford Town,Hungerford Town,Oxford City,Oxford City,Vanarama National League South,0,1,90,1
+04/12/2021,Slough Town,Slough Town,Tonbridge Angels,Tonbridge Angels,Vanarama National League South,2,1,90,
+04/12/2021,Welling United,Welling,Eastbourne Borough,Eastbourne Borough,Vanarama National League South,0,2,90,1
+04/12/2021,Arbroath,Arbroath,Raith Rovers,Raith Rovers,Ladbrokes Scottish Championship,0,0,90,6
+04/12/2021,Hamilton Academical,Hamilton,Dunfermline,Dunfermline,Ladbrokes Scottish Championship,1,0,90,4
+04/12/2021,Greenock Morton,Morton,Ayr United,Ayr,Ladbrokes Scottish Championship,2,2,90,3
+04/12/2021,Queen of the South,Queen of Sth,Partick Thistle,Partick Thistle,Ladbrokes Scottish Championship,0,0,90,3
+04/12/2021,Clyde,Clyde,Peterhead,Peterhead,Ladbrokes Scottish League One,2,2,90,3
+04/12/2021,Cove Rangers,Cove Rangers,Dumbarton,Dumbarton,Ladbrokes Scottish League One,2,0,90,4
+04/12/2021,East Fife,East Fife,Alloa Athletic,Alloa,Ladbrokes Scottish League One,1,1,90,3
+04/12/2021,Queen's Park,Queen's Park,Falkirk,Falkirk,Ladbrokes Scottish League One,6,0,90,2
+04/12/2021,Albion Rovers,Albion,Forfar Athletic,Forfar,Ladbrokes Scottish League Two,2,3,90,4
+04/12/2021,Cowdenbeath,Cowdenbeath,Stirling Albion,Stirling,Ladbrokes Scottish League Two,1,0,90,3
+04/12/2021,Stenhousemuir,Stenhousemuir,Stranraer,Stranraer,Ladbrokes Scottish League Two,1,4,90,2
+04/12/2021,Montrose,Montrose,Kelty Hearts,Kelty Hearts,The William Hill Scottish Cup,1,1,95,
+04/12/2021,Brora Rangers,Brora Rangers,Huntly,Huntly,Press & Journal Highland League,4,0,90,3
+04/12/2021,Wick Academy,Wick Academy,Formartine United,Formartine United,Press & Journal Highland League,1,4,90,5
+04/12/2021,Celtic B,Celtic B,Edinburgh University,Edinburgh University,Ferrari Packaging Lowland League,3,0,90,1
+04/12/2021,Caledonian Braves,Caledonian Braves,East Kilbride,East Kilbride,Ferrari Packaging Lowland League,0,7,90,7
+04/12/2021,Civil Service Strollers,Civil Service Strollers,Broomhill,Broomhill,Ferrari Packaging Lowland League,3,1,90,4
+04/12/2021,East Stirlingshire,East Stirlingshire,Dalbeattie Star,Dalbeattie Star,Ferrari Packaging Lowland League,3,0,90,5
+04/12/2021,Gretna 2008,Gretna 2008,Berwick Rangers,Berwick,Ferrari Packaging Lowland League,0,3,90,4
+04/12/2021,Rangers B,Rangers B,The Spartans,The Spartans,Ferrari Packaging Lowland League,7,1,90,4
+04/12/2021,University of Stirling,University of Stirling,Vale of Leithen,Vale of Leithen,Ferrari Packaging Lowland League,5,0,90,4
+04/12/2021,Caernarfon Town,Caernarfon Town,Penybont,Penybont,Cymru Premier,1,2,90,1
+04/12/2021,Cefn Druids,Cefn Druids,Cardiff MU,Cardiff MU,Cymru Premier,1,3,90,2
+04/12/2021,Flint Town United,Flint Town United,Haverfordwest County,Haverfordwest County,Cymru Premier,4,1,90,1
+04/12/2021,Newtown,Newtown,Barry Town United,Barry Town United,Cymru Premier,2,1,90,
+04/12/2021,Carrick Rangers,Carrick Rangers,Dungannon Swifts,Dungannon Swifts,Danske Bank Premiership,1,2,90,4
+04/12/2021,Cliftonville,Cliftonville,Ballymena United,Ballymena United,Danske Bank Premiership,1,0,90,3
+04/12/2021,Coleraine,Coleraine,Linfield,Linfield,Danske Bank Premiership,1,2,90,4
+04/12/2021,Glenavon,Glenavon,Crusaders,Crusaders,Danske Bank Premiership,1,0,90,4
+04/12/2021,Glentoran,Glentoran,Portadown,Portadown,Danske Bank Premiership,3,1,90,4
+04/12/2021,Larne,Larne,Warrenpoint Town,Warrenpoint Town,Danske Bank Premiership,3,0,90,3
+04/12/2021,Sevilla,Sevilla,Villarreal,Villarreal,Spanish La Liga Santander,1,0,90,7
+04/12/2021,Barcelona,Barcelona,Real Betis,Real Betis,Spanish La Liga Santander,0,1,90,4
+04/12/2021,Atlético Madrid,Atl Madrid,Mallorca,Mallorca,Spanish La Liga Santander,1,2,90,5
+04/12/2021,Real Sociedad,Real Sociedad,Real Madrid,Real Madrid,Spanish La Liga Santander,0,2,90,3
+04/12/2021,Mainz 05,Mainz,VfL Wolfsburg,Wolfsburg,German Bundesliga,3,0,90,1
+04/12/2021,Bayer 04 Leverkusen,B Leverkusen,SpVgg Greuther Fürth,Fürth,German Bundesliga,7,1,90,1
+04/12/2021,Arminia Bielefeld,Arminia Bielefeld,1. FC Köln,Köln,German Bundesliga,1,1,90,4
+04/12/2021,FC Augsburg,Augsburg,VfL Bochum 1848,VfL Bochum,German Bundesliga,2,3,90,5
+04/12/2021,1899 Hoffenheim,Hoffenheim,Eintracht Frankfurt,Frankfurt,German Bundesliga,3,2,90,5
+04/12/2021,Borussia Dortmund,B Dortmund,Bayern Munich,Bayern Munich,German Bundesliga,2,3,90,11
+04/12/2021,AC Milan,AC Milan,Salernitana,Salernitana,Italian TIM Serie A,2,0,90,4
+04/12/2021,Roma,Roma,Inter Milan,Inter Milan,Italian TIM Serie A,0,3,90,3
+04/12/2021,Napoli,Napoli,Atalanta,Atalanta,Italian TIM Serie A,2,3,90,5
+04/12/2021,Marseille,Marseille,Brest,Brest,French Ligue 1,1,2,90,4
+04/12/2021,Lille,Lille,Troyes,Troyes,French Ligue 1,2,1,90,4
+04/12/2021,Lens,Lens,Paris Saint Germain,PSG,French Ligue 1,1,1,90,5
+04/12/2021,Brisbane Roar FC,Brisbane Roar FC,Adelaide United,Adelaide United,Australian Hyundai A-League,0,0,90,7
+04/12/2021,Melbourne City FC,Melbourne City FC,Western United FC,Western United FC,Australian Hyundai A-League,0,1,90,4
+04/12/2021,Sydney FC,Sydney FC,Newcastle Jets,Newcastle Jets,Australian Hyundai A-League,2,2,90,6
+04/12/2021,FC Red Bull Salzburg,RB Salzburg,TSV Egger Glas Hartberg,TSV Egger Glas Hartberg,Austrian T-Mobile Bundesliga,2,1,90,5
+04/12/2021,SK Sturm Graz,SK Sturm Graz,FC Admira Wacker Mödling,FC Admira Wacker Mödling,Austrian T-Mobile Bundesliga,1,1,90,4
+04/12/2021,WSG Tirol,WSG Tirol,SK Austria Klagenfurt,SK Austria Klagenfurt,Austrian T-Mobile Bundesliga,0,1,90,5
+04/12/2021,Oud-Heverlee Leuven,Oud-Heverlee Leuven,KAA Gent,KAA Gent,Belgian First Division A,0,1,90,6
+04/12/2021,KV Kortrijk,KV Kortrijk,Cercle Bruges,Cercle Bruges,Belgian First Division A,0,2,90,4
+04/12/2021,KV Oostende,KV Oostende,KAS Eupen,KAS Eupen,Belgian First Division A,2,1,90,6
+04/12/2021,Club Bruges,Club Bruges,RFC Seraing,RFC Seraing,Belgian First Division A,3,2,90,5
+04/12/2021,Fortaleza EC,Fortaleza EC,Juventude,Juventude,Brazilian Chevrolet Campeonato Série A,1,0,90,5
+04/12/2021,PSV Eindhoven,PSV Eindhoven,FC Utrecht,FC Utrecht,Dutch Eredivisie,4,1,90,4
+04/12/2021,SC Cambuur,SC Cambuur,Vitesse,Vitesse,Dutch Eredivisie,1,6,90,2
+04/12/2021,Heracles Almelo,Heracles Almelo,sc Heerenveen,sc Heerenveen,Dutch Eredivisie,0,1,90,4
+04/12/2021,Atromitos Athens,Atromitos Athens,Apollon Smyrnis,Apollon Smyrnis,Greek Superleague,4,1,90,5
+04/12/2021,Volos NFC,Volos NFC,Panetolikos,Panetolikos,Greek Superleague,1,2,90,6
+04/12/2021,OFI,OFI,Olympiakos,Olympiakos,Greek Superleague,1,3,90,5
+04/12/2021,Boavista,Boavista,Marítimo,Marítimo,Portuguese Primeira Liga NOS,1,1,90,10
+04/12/2021,Paços de Ferreira,Paços de Ferreira,Vitória Guimarães,Vitória Guimarães,Portuguese Primeira Liga NOS,1,2,90,7
+04/12/2021,Krylia Sovetov,Krylia Sovetov,CSKA Moscow,CSKA Moscow,Russian SOGAZ Premier League,0,1,90,4
+04/12/2021,Spartak Moscow,Spartak Moscow,Akhmat Grozny,Akhmat Grozny,Russian SOGAZ Premier League,2,1,90,5
+04/12/2021,Lokomotiv Moscow,Lokomotiv Moscow,Ural,Ural,Russian SOGAZ Premier League,0,1,90,4
+04/12/2021,AIK,AIK,IK Sirius,IK Sirius,Swedish Allsvenskan,4,2,90,5
+04/12/2021,BK Häcken,BK Häcken,Djurgårdens IF,Djurgårdens IF,Swedish Allsvenskan,0,1,90,4
+04/12/2021,Hammarby IF,Hammarby IF,Kalmar FF,Kalmar FF,Swedish Allsvenskan,5,3,90,5
+04/12/2021,IFK Norrköping,IFK Norrköping,IFK Göteborg,IFK Göteborg,Swedish Allsvenskan,1,2,90,4
+04/12/2021,Malmö FF,Malmö FF,Halmstads BK,Halmstads BK,Swedish Allsvenskan,0,0,90,7
+04/12/2021,Örebro SK,Örebro SK,IF Elfsborg,IF Elfsborg,Swedish Allsvenskan,2,3,90,6
+04/12/2021,Östersunds FK,Östersunds FK,Degerfors IF,Degerfors IF,Swedish Allsvenskan,0,1,90,4
+04/12/2021,Varbergs BoIS,Varbergs BoIS,Mjällby AIF,Mjällby AIF,Swedish Allsvenskan,0,3,90,4
+04/12/2021,Zürich,Zürich,Luzern,Luzern,Swiss Raiffeisen Super League,4,0,90,4
+04/12/2021,Young Boys,Young Boys,Servette,Servette,Swiss Raiffeisen Super League,1,2,90,7
+04/12/2021,Alanyaspor,Alanyaspor,Sivasspor,Sivasspor,Turkish Spor Toto Super Lig,0,1,90,6
+04/12/2021,Trabzonspor,Trabzonspor,Adana Demirspor,Adana Demirspor,Turkish Spor Toto Super Lig,2,0,90,5
+04/12/2021,Galatasaray,Galatasaray,Altay,Altay,Turkish Spor Toto Super Lig,2,2,90,10
+04/12/2021,Portland Timbers,Portland Timbers,Real Salt Lake,Real Salt Lake,United States Major League Soccer,2,0,90,5
+05/12/2021,Dundee United,Dundee Utd,Celtic,Celtic,Ladbrokes Scottish Premiership,0,3,90,4
+05/12/2021,El Salvador,El Salvador,Ecuador,Ecuador,International Friendlies,1,1,90,6
+05/12/2021,Rochdale,Rochdale,Plymouth Argyle,Plymouth,The Emirates FA Cup,1,2,90,6
+05/12/2021,Blackburn Ladies,Blackburn Ladies,Sheffield United Women,Sheffield United Women,The FA Women's Continental League Cup,1,0,,
+05/12/2021,Sunderland Ladies,Sunderland Ladies,Aston Villa Women,Aston Villa Women,The FA Women's Continental League Cup,0,7,,
+05/12/2021,Manchester United Women,Man Utd Women,Leicester City Women,Leicester City Women,The FA Women's Continental League Cup,2,2,,
+05/12/2021,Bologna,Bologna,Fiorentina,Fiorentina,Italian TIM Serie A,2,3,90,5
+05/12/2021,Saint-Étienne,Saint-Étienne,Rennes,Rennes,French Ligue 1,0,5,90,1
+05/12/2021,Macarthur FC,Macarthur FC,Central Coast Mariners,Central Coast Mariners,Australian Hyundai A-League,1,0,90,8
+05/12/2021,Melbourne Victory,Melbourne Victory,Perth Glory,Perth Glory,Australian Hyundai A-League,0,3,90,7
 05/12/2021,RKC Waalwijk,RKC Waalwijk,N.E.C.,N.E.C.,Dutch Eredivisie,2,1,90,5
 05/12/2021,FC Khimki,FC Khimki,Arsenal Tula,Arsenal Tula,Russian SOGAZ Premier League,1,2,90,2
 05/12/2021,Kayserispor,Kayserispor,Antalyaspor,Antalyaspor,Turkish Spor Toto Super Lig,2,0,90,6
