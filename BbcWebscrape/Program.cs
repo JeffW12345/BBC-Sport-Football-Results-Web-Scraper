@@ -9,21 +9,22 @@ namespace BbcWebscrape
     {
         static void Main(string[] args)
         {
-            List<string> dates = GetDates(DateTime.Now.AddDays(-2), DateTime.Now);
+            List<string> dates = GetDates(DateTime.Now.AddDays(-364), DateTime.Now);
             List<Results> results = GetResults(dates);
             WriteData(results);
-            Console.WriteLine(dates.Count);
+            Console.WriteLine("Days of data: " + dates.Count);
         }
 
         private static void WriteData(List<Results> results)
         {
+            // CHANGE THIS PATH:
             string path = @"C:\Users\eBay8470\source\repos\BbcWebscrape\BbcWebscrape\results.csv";
             if (!File.Exists(path))
             {
                 using (StreamWriter sw = new StreamWriter(path, true))
                 {
                     sw.WriteLine("Date, Home Team Name (full), Home Team Name (short), Awat Team Name (full), Away Team Name (short), " +
-                        "Tournament, Home goals, Away goals, Normal mins, Added mins");
+                        "Tournament, Home goals, Away goals, Normal mins, Added exta mins");
                     sw.Close();
                 }
             }
